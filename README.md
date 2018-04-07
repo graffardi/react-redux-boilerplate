@@ -1,7 +1,9 @@
-# react-redux-starter
-react-redux-starter is a quick start React and Redux application, this is the template I use for every project.
+# react-redux-boilerplate
+react-redux-boilerplate is a quick start React and Redux application, this is the template I use for every project.
 
 This template allows you to build a React application that uses Redux, feel free to use Axios for API calls, but remember to store them in an action.
+
+You can also find an action, a container and a reducer example in the src folder. All these files can be used as reminders.
 
 **Remember that the Redux data flow is:**
 ```
