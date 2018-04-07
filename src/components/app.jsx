@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import SampleContainer from '../containers/sample_container';
 import '../../style/app.css';
 
 export default class App extends Component {
@@ -7,6 +8,7 @@ export default class App extends Component {
     return (
       <div>
           Whatever you need.
+          <SampleContainer />
       </div>
     );
   }

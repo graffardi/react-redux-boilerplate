@@ -35,6 +35,8 @@ npm start
 - babel-loader
 - babel-preset-es2015
 - babel-preset-react
+- css-loader
+- style-loader
 
 # Useful Links
 - [Axios](https://github.com/axios/axios)

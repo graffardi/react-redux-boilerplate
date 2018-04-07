@@ -3,8 +3,9 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
 import { fetchInformation } from '../actions/index';
+import '../../style/sample_container.css';
 
-class SearchBar extends Component {
+class SampleContainer extends Component {
     constructor (props) {
         super(props);
 
@@ -14,7 +15,7 @@ class SearchBar extends Component {
     }
     render () {
         return (
-            <div>
+            <div className="sample-div">
                 Thanks for cloning my repo!
             </div>
         );
@@ -28,4 +29,4 @@ function mapDispatchToProps(dispatch) {
 // Passing null as first argument because connect usually 
 // takes a state mapping function as first argument, and in this
 // case we do not care about the state.
-export default connect(null, mapDispatchToProps)(SearchBar);
+export default connect(null, mapDispatchToProps)(SampleContainer);
