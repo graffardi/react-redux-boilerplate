@@ -1,27 +1,33 @@
 {
-  "name": "react-redux-starter",
+  "name": "react-redux-boilerplate",
   "version": "1.0.0",
-  "description": "react-redux-starter is a quick start React and Redux application, this is the template I use for every project.",
+  "description": "react-redux-boilerplate is a quick start React and Redux application, this is the template I use for every project.",
   "main": "./src/index.jsx",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "build": "webpack -p"
+    "build": "webpack -p",
+    "clean": "rm -rf ./dist/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/graffardi/react-redux-starter.git"
+    "url": "git+https://github.com/graffardi/react-redux-boilerplate.git"
   },
   "keywords": [
     "react",
     "redux",
-    "starter"
+    "starter",
+    "boilerplate",
+    "webpack",
+    "babel",
+    "eslint",
+    "axios"
   ],
   "author": "Victor Graffard",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/graffardi/react-redux-starter/issues"
+    "url": "https://github.com/graffardi/react-redux-boilerplate/issues"
   },
-  "homepage": "https://github.com/graffardi/react-redux-starter#readme",
+  "homepage": "https://github.com/graffardi/react-redux-boilerplate#readme",
   "dependencies": {
     "axios": "^0.18.0",
     "eslint": "^4.19.1",
