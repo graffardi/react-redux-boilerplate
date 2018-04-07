@@ -30,7 +30,7 @@ npm start
 - webpack-cli
 - webpack-dev-server
 
-*** Dev dependencies ***
+***Dev dependencies***
 - babel
 - babel-loader
 - babel-preset-es2015
