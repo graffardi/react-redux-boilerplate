@@ -1,7 +1,15 @@
 # react-redux-starter
 react-redux-starter is a quick start React and Redux application, this is the template I use for every project.
 
-This template allows you to build a React application that uses Redux, feel free to use Axios for API calls, but remember to store them
+This template allows you to build a React application that uses Redux, feel free to use Axios for API calls, but remember to store them in an action.
+
+**Remember that the Redux data flow is:**
+```
+- Action
+- Reducer
+- Root Reducer
+- Container
+```
 
 # Installation / Starting
 ```
