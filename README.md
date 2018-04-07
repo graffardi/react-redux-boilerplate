@@ -13,10 +13,26 @@ You can also find an action, a container and a reducer example in the src folder
 - Container
 ```
 
-# Installation / Starting
+# How to
+
+**Installation:**
 ```
 npm install
+```
+
+**Start the application:**
+```
 npm start
+```
+
+**Build the application:**
+```
+npm run-script build
+```
+
+**Clean the folder (removes ./dist/):**
+```
+npm run-script clean
 ```
 
 # Packages
