@@ -12,5 +12,8 @@ export const fetchInformation = (some_information) => {
     return {
         type: ACTION_NAME,
         payload: request
+        .catch((error) => {
+            console.log(error.message);
+        })
     };
 };
